@@ -1,0 +1,26 @@
+body{
+	margin: auto;
+	max-width: 700px;
+	width: 80%;
+	border: 30px solid #bdc3c7;
+}
+
+h3{
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	font-size: 16px;
+	color: #2c3e50;
+}
+
+h1{
+	text-align: left;
+	margin: 2%;
+	font-size: 23px;
+}
+
+p{
+	margin-left: 2%;
+	margin-right: 2%;
+} 

@@ -1,0 +1,82 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>
+	Registration
+</title>
+</head>
+<body>
+<h1>Register</h1>
+<pre></pre>
+<form>
+	<label for = "First_Name">First Name:</label>
+	<input id = "First_Name" name = "firstName" placeholder="first name" required>
+
+	<label for = "Last_Name">Last Name:</label>
+	<input id = "Last_Name" name = "lastName" placeholder="last name" required> <br>
+
+	<label for = "Male">Male</label>
+	<input id = "Male" name = "Gender" type = "radio" value = "Male" required>
+
+	<label for = "Female">Female</label>
+	<input id = "Female" name = "Gender" type = "radio" value = "Female" required>
+
+	<label for = "Other">Other</label>
+	<input id = "Other" name = "Gender" type = "radio" value = "Other" required> <br>
+
+	<label for = "Email">Email:</label>
+	<input id = "Email" name = "Email" type = "email" required> 
+
+	<label for = "Password">Password:</label>
+	<input id = "Password" name = "Password" type = "password" pattern=".{8,12}" required title="8 to 12 characters" required>  <br>
+
+	<label for = "Birthday">Birthday:</label>
+	<select id = "Birthday" name = "BirthdayMonth" placeholder = "Month" required>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>June</option>
+		<option>July</option>
+		<option>August</option>
+		<option>September</option>
+		<option>October</option>
+		<option>November</option>
+		<option>December</option>
+	</select>
+	<select id = "Birthday" name = "BirthdayDay" required>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>September</option>
+		<option>October</option>
+		<option>November</option>
+		<option>December</option>
+	</select>
+	<select id = "Birthday" name = "BirthdayYear" required>
+		<option>January></option>
+		<option>February></option>
+		<option>March></option>
+		<option>April></option>
+		<option>May></option>
+		<option>June></option>
+		<option>July></option>
+		<option>August></option>
+		<option>September></option>
+		<option>October></option>
+		<option>November></option>
+		<option>December></option>
+	</select> <br>
+	<label for = "terms&cond">I agree to the terms and conditions</label>
+	<input id = "terms&cond" type = "checkbox" required> <br>
+	<button>Submit</button>
+</form>
+</body>
+</html>
